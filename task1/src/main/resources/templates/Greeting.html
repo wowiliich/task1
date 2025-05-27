@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Greeting</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="'Hello, ' + ${name} + '!'">Hello, World!</p>
+<p>Za kibicowski trud,<br>
+    za święte barwy Twe,<br>
+    za ten syreni gród<br>
+    Legio wygraj dzisiaj ten mecz.</p>
+<img th:src="@{/images/projectimage1.png}" width="600" height="600" />
+</body>
+</html>
